@@ -1,0 +1,30 @@
+body {
+	padding: 20px;
+	font-family: sans-serif;
+	font-weight: 100;
+}
+input[type=text]{
+	width: 100%;
+	padding: 10px 10px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+
+button {
+	background: #555;
+	border:none;
+	color:white;
+	padding: 55px 42px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 18px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: .4s;
+}
+
+button:hover {
+	background: #000;
+	color:white;
+}
