@@ -28,26 +28,26 @@ document.getElementById('btn2').onclick = function convert(){
 
 
 
-document.getElementById('btn3').onclick = function change_greetings(){
-	var french = (document.getElementById('french').value);
-	// if(language==french){
-	document.getElementById('greeting_holder').innerHTML = "Je t’aime";
-	}
+// document.getElementById('btn3').addEventListener('click',function()) function change_greetings(){
 
-document.getElementById('btn3').onclick = function change_greetings(){
-	var language = (document.getElementById("italian").value);
-	document.getElementById('greeting_holder').innerHTML = "Ti amo";
-	}
-document.getElementById('btn3').onclick = function change_greetings(){
-	var language = (document.getElementById("romanian").value);
-	document.getElementById('greeting_holder').innerHTML = "Te iubesc";
-	}
+// }
+// 	}
 
-document.getElementById('btn3').onclick = function change_greetings(){
-	var language = (document.getElementById("filipino").value);
-	document.getElementById('greeting_holder').innerHTML = "Mahal Kita";
-	}
+document.getElementById('translateBtn')
+.addEventListener('click', function(){
+	let input = document.getElementById('language_selected').value;
+	let greeting_holder = document.getElementById('greeting_holder');
 
+	if(input==="..."){
+		greeting_holder.innerHTML = "I love you!";
+	}else if(input==="french"){
+		greeting_holder.innerHTML = "Jet 'aime";
+	}else if(input==="italian"){
+		greeting_holder.innerHTML = "ti amo";
+	}else{
+		greeting_holder.innerHTML = "Mahal Kita";
+	}
+})
 
 
 

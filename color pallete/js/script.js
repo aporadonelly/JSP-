@@ -1,23 +1,64 @@
-document.getElementById('box').onclick = function box() {
+document.getElementById('box1')
+.addEventListener('click',function(){
+	let color = prompt("Please input a color");
+	document.getElementById('box1').style.backgroundColor = color;
+})
 
 
-	var input = prompt("Enter color you want to see.");
-	document.getElementById('box').value;
-	// var b = parseInt(document.getElementById('input2').value);
-	
-	// var ans = (a) + (b);
-
-	document.getElementById('box').innerHTML.style.background = color;
-}
-
-document.getElementById('box2').onclick = function box2() {
+document.getElementById('box2')
+.addEventListener('click',function(){
+	let color = prompt("Please input a color");
+	document.getElementById('box2').style.backgroundColor = color;
+})
 
 
-	var color = prompt("Enter color you want to see.");
-	// var a = parseInt(document.getElementById('input1').value);
-	// var b = parseInt(document.getElementById('input2').value);
-	
-	// var ans = (a) + (b);
 
-	document.getElementById('box2').innerHTML.style.background = color;
-}
+document.getElementById('box3')
+.addEventListener('click',function(){
+	let color = prompt("Please input a color");
+	document.getElementById('box3').style.backgroundColor = color;
+})
+
+document.getElementById('box4')
+.addEventListener('click',function(){
+	let color = prompt("Please input a color");
+	document.getElementById('box4').style.backgroundColor = color;
+})
+
+
+document.getElementById('box5')
+.addEventListener('click',function(){
+	let color = prompt("Please input a color");
+	document.getElementById('box5').style.backgroundColor = color;
+})
+
+
+document.getElementById('box6')
+.addEventListener('click',function(){
+	let color = prompt("Please input a color");
+	document.getElementById('box6').style.backgroundColor = color;
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
