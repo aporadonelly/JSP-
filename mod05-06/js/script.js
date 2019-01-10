@@ -2,6 +2,7 @@ let load_balance = 200;
 let amount10 = document.getElementById('load10');
 let amount50 = document.getElementById('load50');
 let amount100 = document.getElementById('load100');
+let new_load_bal;
 
 document.getElementById('load10')
 .addEventListener('click',function(){
